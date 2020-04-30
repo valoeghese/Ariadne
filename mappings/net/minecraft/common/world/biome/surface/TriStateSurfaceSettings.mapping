@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_3527 net/minecraft/common/world/biome/surface/TriStateSurfaceSettings
+	FIELD field_15715 top Lnet/minecraft/class_2680;
+	FIELD field_15716 deepUnderwater Lnet/minecraft/class_2680;
+	FIELD field_15717 under Lnet/minecraft/class_2680;
+	METHOD <init> (Lnet/minecraft/class_2680;Lnet/minecraft/class_2680;Lnet/minecraft/class_2680;)V
+		ARG 1 top
+		ARG 2 under
+		ARG 3 deepUnderwater
+	METHOD method_15330 getDeepUnderwaterBlockState ()Lnet/minecraft/class_2680;
+	METHOD method_15331 deserialize (Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/class_3527;

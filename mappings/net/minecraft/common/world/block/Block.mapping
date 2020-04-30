@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_2248 net/minecraft/common/world/block/Block
+	METHOD method_9564 getDefaultState ()Lnet/minecraft/class_2680;

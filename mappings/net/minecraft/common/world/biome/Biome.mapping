@@ -1,5 +1,65 @@
 CLASS net/minecraft/class_1959 net/minecraft/common/world/biome/Biome
+	FIELD field_21806 skyColour I
 	FIELD field_9323 BIOMES Ljava/util/Set;
+	FIELD field_9327 rainType Lnet/minecraft/class_1959$class_1963;
 	FIELD field_9328 MUTATED_BIOMES_MAP Lnet/minecraft/class_2361;
+	FIELD field_9329 category Lnet/minecraft/class_1959$class_1961;
+	FIELD field_9330 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_9332 parent Ljava/lang/String;
+	FIELD field_9336 surface Lnet/minecraft/class_3504;
+	FIELD field_9338 humidity F
+	FIELD field_9339 temperature F
+	FIELD field_9341 hilliness F
+	FIELD field_9343 baseHeight F
+	METHOD <init> (Lnet/minecraft/class_1959$class_1960;)V
+		ARG 1 properties
+	METHOD method_24218 computeSkyColour ()I
 	METHOD method_8716 getMutatedBiome (Lnet/minecraft/class_1959;)Lnet/minecraft/class_1959;
 		ARG 0 base
+	METHOD method_8723 isMutatedBiome ()Z
+	CLASS class_1960 Properties
+		FIELD field_9344 baseHeight Ljava/lang/Float;
+		FIELD field_9345 biomeCategory Lnet/minecraft/class_1959$class_1961;
+		FIELD field_9346 rainType Lnet/minecraft/class_1959$class_1963;
+		FIELD field_9348 hilliness Ljava/lang/Float;
+		FIELD field_9349 temperature Ljava/lang/Float;
+		FIELD field_9351 humidity Ljava/lang/Float;
+		FIELD field_9352 parent Ljava/lang/String;
+		FIELD field_9353 surface Lnet/minecraft/class_3504;
+		METHOD method_8727 humidity (F)Lnet/minecraft/class_1959$class_1960;
+			ARG 1 humidity
+		METHOD method_8731 surface (Lnet/minecraft/class_3504;)Lnet/minecraft/class_1959$class_1960;
+			ARG 1 surface
+		METHOD method_8735 rainType (Lnet/minecraft/class_1959$class_1963;)Lnet/minecraft/class_1959$class_1960;
+			ARG 1 rainType
+		METHOD method_8737 surface (Lnet/minecraft/class_3523;Lnet/minecraft/class_3531;)Lnet/minecraft/class_1959$class_1960;
+			ARG 1 type
+			ARG 2 settings
+		METHOD method_8738 category (Lnet/minecraft/class_1959$class_1961;)Lnet/minecraft/class_1959$class_1960;
+			ARG 1 category
+		METHOD method_8740 baseHeight (F)Lnet/minecraft/class_1959$class_1960;
+			ARG 1 height
+		METHOD method_8743 hilliness (F)Lnet/minecraft/class_1959$class_1960;
+			ARG 1 hilliness
+		METHOD method_8745 mutationOf (Ljava/lang/String;)Lnet/minecraft/class_1959$class_1960;
+			ARG 1 parent
+		METHOD method_8747 temperature (F)Lnet/minecraft/class_1959$class_1960;
+			ARG 1 temperature
+	CLASS class_1961 Category
+		FIELD field_9359 STRING_TO_CATEGORY Ljava/util/Map;
+		FIELD field_9372 stringValue Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 3 stringValue
+		METHOD method_8749 asString ()Ljava/lang/String;
+	CLASS class_1962 Climate
+		FIELD field_9374 stringToClimateMap Ljava/util/Map;
+		FIELD field_9380 stringValue Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 3 stringValue
+		METHOD method_8750 asString ()Ljava/lang/String;
+	CLASS class_1963 RainType
+		FIELD field_9381 STRING_TO_RAINTYPE Ljava/util/Map;
+		FIELD field_9385 stringValue Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 3 stringValue
+		METHOD method_8752 asString ()Ljava/lang/String;
