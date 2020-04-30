@@ -1,0 +1,2 @@
+CLASS net/minecraft/util/CubicSampler
+	FIELD field_22449 CUBIC_CONSTANTS [D

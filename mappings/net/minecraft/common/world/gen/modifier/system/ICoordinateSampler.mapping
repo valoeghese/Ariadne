@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_4 net/minecraft/common/world/gen/modifier/system/ICoordinateSampler
+	METHOD apply (II)I
+		ARG 1 x
+		ARG 2 y

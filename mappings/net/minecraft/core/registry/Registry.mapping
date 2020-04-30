@@ -1,0 +1,24 @@
+CLASS net/minecraft/class_2378 net/minecraft/core/registry/Registry
+	COMMENT Class for registering various elements of the game so that minecraft can handle and serialise them.
+	FIELD field_11139 LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD method_10220 stream ()Ljava/util/stream/Stream;
+	METHOD method_10221 getId (Ljava/lang/Object;)Lnet/minecraft/class_2960;
+		ARG 1 value
+	METHOD method_10223 getValue (Lnet/minecraft/class_2960;)Ljava/lang/Object;
+		ARG 1 id
+	METHOD method_10224 create (Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraft/class_2348;
+		ARG 0 name
+		ARG 2 defaultValueSUpplier
+	METHOD method_10226 register (Lnet/minecraft/class_2378;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD method_10230 register (Lnet/minecraft/class_2378;Lnet/minecraft/class_2960;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD method_10231 register (Lnet/minecraft/class_2378;ILjava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD method_10235 getRegisteredIds ()Ljava/util/Set;
+	METHOD method_10247 create (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraft/class_2378;
+		ARG 0 name
+		ARG 1 defaultValueSupplier
+	METHOD method_10249 getSerialisedId (Ljava/lang/Object;)I
+		ARG 1 value
+	METHOD method_10250 isRegistered (Lnet/minecraft/class_2960;)Z
+		ARG 1 id
+	METHOD method_17966 getValueAsOptional (Lnet/minecraft/class_2960;)Ljava/util/Optional;
+		ARG 1 id

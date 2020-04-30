@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1781 net/minecraft/common/item/FireworkRocketItem
+	CLASS class_1782 FireworkShape

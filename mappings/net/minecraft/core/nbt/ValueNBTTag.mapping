@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_2514 net/minecraft/core/nbt/ValueNBTTag
+	METHOD method_10696 asShort ()S
+	METHOD method_10697 asDouble ()D
+	METHOD method_10698 asByte ()B
+	METHOD method_10699 asLong ()J
+	METHOD method_10700 asFloat ()F
+	METHOD method_10701 asInt ()I
+	METHOD method_10702 asNumber ()Ljava/lang/Number;

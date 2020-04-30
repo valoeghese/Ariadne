@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_3659 net/minecraft/common/world/gen/modifier/system/IBiParentedModifier
+	METHOD method_15858 (Lnet/minecraft/class_3628;Lnet/minecraft/class_3625;Lnet/minecraft/class_3625;II)I
+		ARG 4 x
+		ARG 5 y
+	METHOD method_15860 createFromTree (Lnet/minecraft/class_3628;Lnet/minecraft/class_3627;Lnet/minecraft/class_3627;)Lnet/minecraft/class_3627;
+		ARG 2 tree1
+		ARG 3 tree2
+	METHOD method_15861 modify (Lnet/minecraft/class_3630;Lnet/minecraft/class_3625;Lnet/minecraft/class_3625;II)I
+		ARG 1 random
+		ARG 2 parent1
+		ARG 3 parent2
+		ARG 4 x
+		ARG 5 y

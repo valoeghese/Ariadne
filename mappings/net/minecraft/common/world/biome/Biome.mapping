@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1959 net/minecraft/common/world/biome/Biome
+	FIELD field_9323 BIOMES Ljava/util/Set;
+	FIELD field_9328 MUTATED_BIOMES_MAP Lnet/minecraft/class_2361;
+	METHOD method_8716 getMutatedBiome (Lnet/minecraft/class_1959;)Lnet/minecraft/class_1959;
+		ARG 0 base

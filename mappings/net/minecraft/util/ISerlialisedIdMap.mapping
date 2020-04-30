@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_2359 net/minecraft/util/ISerlialisedIdMap
+	METHOD method_10200 getValue (I)Ljava/lang/Object;
+		ARG 1 serialisedId

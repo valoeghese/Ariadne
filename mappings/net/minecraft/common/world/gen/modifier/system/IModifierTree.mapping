@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_3627 net/minecraft/common/world/gen/modifier/system/IModifierTree
+	METHOD make make ()Lnet/minecraft/class_3625;

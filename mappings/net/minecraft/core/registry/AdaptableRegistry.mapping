@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_2385 net/minecraft/core/registry/AdaptableRegistry
+	METHOD method_10272 register (Lnet/minecraft/class_2960;Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 1 id
+		ARG 2 value
+	METHOD method_10273 register (ILnet/minecraft/class_2960;Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 1 serialisedId
+		ARG 2 id
+		ARG 3 value
+	METHOD method_10274 isEmpty ()Z

@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_39 net/minecraft/common/loot/LootTables
+	COMMENT Class containing Ids which point to resource locations for the loot table data.
+	FIELD field_600 LOOT_TABLES_REFERENCE Ljava/util/Set;
+	FIELD field_667 LOOT_TABLES Ljava/util/Set;
+	FIELD field_844 EMPTY Lnet/minecraft/class_2960;
+	METHOD method_269 register (Ljava/lang/String;)Lnet/minecraft/class_2960;
+		ARG 0 location
+	METHOD method_270 getLootTables ()Ljava/util/Set;
+	METHOD method_271 register (Lnet/minecraft/class_2960;)Lnet/minecraft/class_2960;
+		ARG 0 id

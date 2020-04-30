@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_2246 net/minecraft/common/world/block/Blocks
+	METHOD method_9492 register (Ljava/lang/String;Lnet/minecraft/class_2248;)Lnet/minecraft/class_2248;

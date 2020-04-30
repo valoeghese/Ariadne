@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_2520 net/minecraft/core/nbt/INBTTag
+	METHOD method_10711 getTypeId ()B
+	METHOD method_10713 write (Ljava/io/DataOutput;)V
+		ARG 1 out
+	METHOD method_10714 asString ()Ljava/lang/String;
