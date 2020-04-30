@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_2791 net/minecraft/common/world/IChunk
+	METHOD method_12042 (Lnet/minecraft/class_2487;)V
+		ARG 1 nbt

@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_1966 net/minecraft/common/world/gen/BiomePlacer
+	FIELD field_20643 validBiomes Ljava/util/Set;
+	FIELD field_9391 BIOMES Ljava/util/List;
+	METHOD <init> (Ljava/util/Set;)V
+		ARG 1 validBiomes
+	METHOD method_8759 getBiomes ()Ljava/util/List;

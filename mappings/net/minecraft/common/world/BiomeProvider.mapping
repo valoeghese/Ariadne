@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_4543 net/minecraft/common/world/BiomeProvider
+	FIELD field_20640 sampler Lnet/minecraft/class_4543$class_4544;
+	FIELD field_20641 seed J
+	METHOD <init> (Lnet/minecraft/class_4543$class_4544;JLnet/minecraft/class_4545;)V
+		ARG 1 sampler
+		ARG 2 seed
+	CLASS class_4544 IBiomeSampler
+		METHOD method_16359 sampleGenerationBiome (III)Lnet/minecraft/class_1959;
+			ARG 1 genX
+			ARG 2 genY
+			ARG 3 genZ

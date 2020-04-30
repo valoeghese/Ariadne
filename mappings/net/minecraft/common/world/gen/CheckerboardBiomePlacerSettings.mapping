@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_1976 net/minecraft/common/world/gen/CheckerboardBiomePlacerSettings
+	FIELD field_9483 biomes [Lnet/minecraft/class_1959;
+	METHOD <init> (J)V
+		ARG 1 seed
+	METHOD method_8777 withBiomes ([Lnet/minecraft/class_1959;)Lnet/minecraft/class_1976;
+		ARG 1 biomes
