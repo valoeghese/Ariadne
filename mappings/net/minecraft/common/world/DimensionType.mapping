@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_2874 net/minecraft/common/world/DimensionType
+	METHOD method_12486 register (Ljava/lang/String;Lnet/minecraft/class_2874;)Lnet/minecraft/class_2874;

@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_3218 net/minecraft/server/ServerDimension
+	FIELD field_13952 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_13959 server Lnet/minecraft/server/MinecraftServer;
+	FIELD field_13960 uuidToEntity Ljava/util/Map;
+	FIELD field_17913 entities Ljava/util/List;
+	FIELD field_18261 players Ljava/util/List;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/util/concurrent/Executor;Lnet/minecraft/class_32$class_5143;Lnet/minecraft/class_5268;Lnet/minecraft/class_2874;Lnet/minecraft/class_3949;)V
+		ARG 5 type
+	METHOD method_14168 (Lnet/minecraft/class_32$class_5143;Lnet/minecraft/server/MinecraftServer;Ljava/util/concurrent/Executor;Lnet/minecraft/class_3949;Lnet/minecraft/class_1937;Lnet/minecraft/class_2869;)Lnet/minecraft/class_2802;
+		ARG 4 dimension
+		ARG 5 properties

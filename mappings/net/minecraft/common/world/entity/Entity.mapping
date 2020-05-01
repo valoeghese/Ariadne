@@ -1,0 +1,20 @@
+CLASS net/minecraft/class_1297 net/minecraft/common/world/entity/Entity
+	FIELD field_5955 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_5961 type Lnet/minecraft/class_1299;
+	FIELD field_5974 random Ljava/util/Random;
+	FIELD field_6002 dimension Lnet/minecraft/class_1937;
+	FIELD field_6009 invulnerable Z
+	FIELD field_6018 portalCooldown I
+	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V
+		ARG 1 type
+		ARG 2 dimension
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 other
+	METHOD method_5647 toTag (Lnet/minecraft/class_2487;)Lnet/minecraft/class_2487;
+		ARG 1 baseTag
+	METHOD method_5784 move (Lnet/minecraft/class_1313;Lnet/minecraft/class_243;)V
+	METHOD method_5807 isNameVisible ()Z
+	METHOD method_5852 checkCollision ()V
+	METHOD method_5864 getType ()Lnet/minecraft/class_1299;
+	METHOD method_5866 changeDimension (Lnet/minecraft/class_1937;)V
+		ARG 1 newDimension

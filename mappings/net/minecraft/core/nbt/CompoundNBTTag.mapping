@@ -1,1 +1,8 @@
 CLASS net/minecraft/class_2487 net/minecraft/core/nbt/CompoundNBTTag
+	METHOD method_10548 put (Ljava/lang/String;F)V
+	METHOD method_10556 put (Ljava/lang/String;Z)V
+	METHOD method_10566 put (Ljava/lang/String;Lnet/minecraft/class_2520;)Lnet/minecraft/class_2520;
+	METHOD method_10569 put (Ljava/lang/String;I)V
+	METHOD method_10575 put (Ljava/lang/String;S)V
+	METHOD method_10582 put (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_25927 put (Ljava/lang/String;Ljava/util/UUID;)V

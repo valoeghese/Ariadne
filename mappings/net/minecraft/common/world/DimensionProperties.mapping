@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_2869 net/minecraft/common/world/DimensionProperties
+	METHOD method_12443 createWorldGenerator ()Lnet/minecraft/class_2794;
