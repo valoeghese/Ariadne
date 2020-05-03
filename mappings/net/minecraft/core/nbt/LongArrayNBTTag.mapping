@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_2501 net/minecraft/core/nbt/LongArrayNBTTag
+	FIELD field_21040 reader Lnet/minecraft/class_4614;

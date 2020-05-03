@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_178 net/minecraft/common/advancement/CriterionAchievementData
+	FIELD field_1219 achievedAt Ljava/util/Date;
+	FIELD field_1220 dateFormat Ljava/text/SimpleDateFormat;
+	METHOD method_784 hasAchieved ()Z
+	METHOD method_785 (Lnet/minecraft/class_2540;)Lnet/minecraft/class_178;
+		ARG 0 in
+	METHOD method_786 getTimeAchieved ()Ljava/util/Date;
+	METHOD method_788 of (Ljava/lang/String;)Lnet/minecraft/class_178;
+		ARG 0 date
+	METHOD method_789 achieve ()V
+	METHOD method_790 unachieve ()V

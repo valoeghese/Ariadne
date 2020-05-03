@@ -1,8 +1,20 @@
 CLASS net/minecraft/class_2487 net/minecraft/core/nbt/CompoundNBTTag
+	FIELD field_11515 children Ljava/util/Map;
+	METHOD <init> (Ljava/util/Map;)V
+		ARG 1 children
+	METHOD method_10538 putLongList (Ljava/lang/String;Ljava/util/List;)V
+	METHOD method_10539 put (Ljava/lang/String;[I)V
+	METHOD method_10541 getKeys ()Ljava/util/Set;
+	METHOD method_10544 put (Ljava/lang/String;J)V
+	METHOD method_10546 getSize ()I
 	METHOD method_10548 put (Ljava/lang/String;F)V
+	METHOD method_10549 put (Ljava/lang/String;D)V
 	METHOD method_10556 put (Ljava/lang/String;Z)V
+	METHOD method_10564 put (Ljava/lang/String;[J)V
 	METHOD method_10566 put (Ljava/lang/String;Lnet/minecraft/class_2520;)Lnet/minecraft/class_2520;
 	METHOD method_10569 put (Ljava/lang/String;I)V
+	METHOD method_10570 put (Ljava/lang/String;[B)V
+	METHOD method_10572 putIntegerList (Ljava/lang/String;Ljava/util/List;)V
 	METHOD method_10575 put (Ljava/lang/String;S)V
 	METHOD method_10582 put (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD method_25927 put (Ljava/lang/String;Ljava/util/UUID;)V

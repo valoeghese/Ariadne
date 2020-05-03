@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_4614 net/minecraft/core/nbt/INBTReader
+	METHOD method_23259 getType ()Ljava/lang/String;
+	METHOD method_23261 getTag ()Ljava/lang/String;
+	METHOD method_23262 read (Ljava/io/DataInput;ILnet/minecraft/class_2505;)Lnet/minecraft/class_2520;
+		ARG 1 in

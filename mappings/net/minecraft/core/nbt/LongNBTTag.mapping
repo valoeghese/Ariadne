@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_2503 net/minecraft/core/nbt/LongNBTTag
+	FIELD field_11553 value J
+	FIELD field_21041 reader Lnet/minecraft/class_4614;

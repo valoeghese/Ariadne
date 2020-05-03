@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_2540 net/minecraft/core/PacketReader
+	FIELD field_11695 buffer Lio/netty/buffer/ByteBuf;
